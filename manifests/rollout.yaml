@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/bogdanpetrea14/ci_cd_lab/actions:latest
+          image: ghcr.io/bogdanpetrea14/ci_cd_lab/actions:broken
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
